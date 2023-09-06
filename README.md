@@ -13,7 +13,8 @@ The application has two main views:
 
 ## Design Implementation
 
-- Design implementation is open-ended but must follow the structure defined in the provided screenshots. A detailed proposal will be positively valued.
+- Design implementation is open-ended but must follow the structure defined in the provided screenshots.
+- A detailed proposal will be positively valued.
 
 ## Technical Details
 
@@ -34,7 +35,7 @@ The application has two main views:
 ## Environment Variables
 
 - `E_COMMERCE_BRAZ_APP_API_BASE_URL`: API base URL for data management.
-  Example: `https://itx-frontend-test.onrender.com/api/`
+- Example: `https://itx-frontend-test.onrender.com/api/`
 
 ## Scripts
 
@@ -49,7 +50,8 @@ The project includes the following scripts for managing the application FrontEnd
 
 ## Repository
 
-The project is hosted on GitHub: [victor90braz/e-commerce-braz-frontend](https://github.com/victor90braz/e-commerce-braz-frontend)
+The project is hosted on GitHub: 
+[victor90braz/e-commerce-braz-frontend](https://github.com/victor90braz/e-commerce-braz-frontend)
 
 ## Product List Page (PLP)
 
