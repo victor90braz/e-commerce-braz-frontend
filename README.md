@@ -103,3 +103,30 @@ The project is hosted on GitHub: [victor90braz/e-commerce-braz-frontend](https:/
   - Get list of products: `GET /api/product`
   - Get product details: `GET /api/product/:id`
   - Add product to cart: `POST /api/cart`
+
+## Scripts
+
+The project includes the following scripts for managing the application FrontEnd:
+
+1. **Install Dependencies:** `npm install`
+
+   - Use this command to install the project dependencies.
+
+2. **Start the Development Server:** `npm start`
+
+   - Use this command to start the development server.
+
+3. **Build for Production:** `npm run build`
+
+   - Use this command to build the application for production.
+
+4. **Run Tests:** `npm test`
+
+   - Run tests for the application.
+
+5. **Run Tests with Coverage Report:** `npm run test-coverage`
+
+   - Execute tests and generate test coverage reports.
+
+6. **Eject from Create React App:** `npm run eject`
+   - Eject from Create React App to customize your project configuration (use with caution).
