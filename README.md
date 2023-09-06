@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# E-Commerce Braz - Mini Application for Purchasing Mobile Devices
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a mini-application called "E-Commerce Braz" for purchasing mobile devices.
 
-## Available Scripts
+Website: [https://e-commerce-braz.netlify.app/](https://e-commerce-braz.netlify.app/)
 
-In the project directory, you can run:
+## Views
 
-### `npm start`
+The application has two main views:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Main View - Product Listing
+2. Product Details
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Design Implementation
 
-### `npm test`
+- Design implementation is open-ended but must follow the structure defined in the provided screenshots. A detailed proposal will be positively valued.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technical Details
 
-### `npm run build`
+- The application is a Single Page Application (SPA) with client-side routing.
+- Application development front end.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - React
+  - React Redux
+  - Styled Components
+  - Bootstrap React
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Application development back end.
+  - MySql
+  - Php (Laravel)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Environment Variables
 
-### `npm run eject`
+- `VITE_SHOPPING_APP_API_BASE_URL`: API base URL for data management.
+  Example: `https://itx-frontend-test.onrender.com/api/`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Scripts
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The project includes the following scripts for managing the application:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. `npm start`: Start the development server.
+2. `npm run build`: Build the application for production.
+3. `npm test`: Run tests.
+4. `npm test-coverage`: Run tests and generate test coverage reports.
+5. `npm run eject`: Which allows you to customize your project configuration.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Repository
 
-## Learn More
+The project is hosted on GitHub: [victor90braz/e-commerce-braz-frontend](https://github.com/victor90braz/e-commerce-braz-frontend)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Product List Page (PLP)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Displays a list of products.
+- Allows filtering content based on user-entered search criteria.
+- Selecting a product navigates to its details.
+- Adapts to different resolutions with a maximum of four items per row.
 
-### Code Splitting
+## Product Details Page (PDP)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Divided into two columns:
+  1. Displays the product image component.
+  2. Displays product details and actions.
 
-### Analyzing the Bundle Size
+## Components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Header
 
-### Making a Progressive Web App
+- Acts as a link to the main view.
+- Shows breadcrumbs and provides links for navigation.
+- Displays the number of items in the cart.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Search
 
-### Advanced Configuration
+- Allows users to filter products based on entered text.
+- Real-time filtering updates results.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Item
 
-### Deployment
+- Displays product information: Image, Brand, Model, Price.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Image of Product
 
-### `npm run build` fails to minify
+- Displays the product image.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Description of Product
+
+- Displays detailed product attributes.
+
+### Actions
+
+- Allows users to add products to the cart.
+- Requires sending product ID, color code, and storage code via the API.
+
+## Resources
+
+### Integration API
+
+- API domain: [https://front-test-api.herokuapp.com/](https://front-test-api.herokuapp.com/)
+- Endpoints:
+  - Get list of products: `GET /api/product`
+  - Get product details: `GET /api/product/:id`
+  - Add product to cart: `POST /api/cart`
