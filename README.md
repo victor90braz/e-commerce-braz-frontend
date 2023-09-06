@@ -18,31 +18,34 @@ The application has two main views:
 ## Technical Details
 
 - The application is a Single Page Application (SPA) with client-side routing.
-- Application development front end.
+
+- Application Development FrontEnd.
 
   - React
   - React Redux
   - Styled Components
   - Bootstrap React
 
-- Application development back end.
+- Application Development BackEnd.
+
   - MySql
   - Php (Laravel)
 
 ## Environment Variables
 
-- `VITE_SHOPPING_APP_API_BASE_URL`: API base URL for data management.
+- `E_COMMERCE_BRAZ_APP_API_BASE_URL`: API base URL for data management.
   Example: `https://itx-frontend-test.onrender.com/api/`
 
 ## Scripts
 
-The project includes the following scripts for managing the application:
+The project includes the following scripts for managing the application FrontEnd:
 
-1. `npm start`: Start the development server.
-2. `npm run build`: Build the application for production.
-3. `npm test`: Run tests.
-4. `npm test-coverage`: Run tests and generate test coverage reports.
-5. `npm run eject`: Which allows you to customize your project configuration.
+1. `npm install`: Install Dependencies.
+2. `npm start`: Start the development server.
+3. `npm run build`: Build the application for production.
+4. `npm test`: Run tests.
+5. `npm test-coverage`: Run tests and generate test coverage reports.
+6. `npm run eject`: Which allows you to customize your project configuration.
 
 ## Repository
 
