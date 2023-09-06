@@ -47,6 +47,8 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.22.15",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "@babel/plugin-proposal-private-property-in-object": "^7.2.4"
+
   }
 }
