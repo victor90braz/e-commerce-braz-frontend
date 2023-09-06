@@ -42,5 +42,8 @@
       "!src/index.js",
       "!src/reportWebVitals.js"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.22.15"
   }
 }
