@@ -11,6 +11,7 @@
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.2",
     "react-scripts": "5.0.1",
+    "styled-components": "^6.0.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -46,9 +47,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.2.4",
     "@babel/plugin-transform-modules-commonjs": "^7.22.15",
-    "husky": "^8.0.3",
-    "@babel/plugin-proposal-private-property-in-object": "^7.2.4"
-
+    "husky": "^8.0.3"
   }
 }
